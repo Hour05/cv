@@ -1,0 +1,97 @@
+body {
+    font-family: 'Changa';      
+    line-height: 1.6;
+    background-color: #f1f1f1; /* Light Gray */
+    color: #333333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #2a4033; 
+}
+
+header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 36px;
+    color:white; 
+    margin: 10px 0;
+}
+
+header p {
+    color:  #b0c2ad; 
+    font-size: 20px;
+}
+
+.contact-info a {
+    color: #6a8b65;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 30px 20px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px darkgrey;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #8abf87; 
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    background-color: #fafafa;
+}
+
+th {
+    background-color: #f0f0f0; /
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.skill-level {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #6a8b65;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2a4033;
+    color: #6a8b65;
+    font-size: 20px;
+}
